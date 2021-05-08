@@ -1,0 +1,31 @@
+
+Module main()
+    Declare Integer maxCars
+    Declare Integer totalDays
+    Declare Integer totalCars
+    Set totalCars = 0
+    Set totalDays = 0
+    Set totalCars = 0
+
+    Declare String filename
+    Input filename
+    Declare InputFile filename
+    Open InputFile "file"
+
+    For Each line in file
+        Declare Integer num
+        Set num = line
+        If num > maxCars Then
+            set maxCars = num
+        Set totalDays = totalDays + 1
+        Set totalCars = totalCars + num
+    End For
+
+    Declare Float averageCars
+    set averageCars = totalCars / totalDays
+    Display "Number of days monitored: " , totalDays
+    Display "Maximum number of cars in a day: " , totalDays
+    Display "Average cars per day: " , totalDays
+End Module
+
+Call main()

@@ -7,8 +7,7 @@
 # A function that displays a welcome message to the user and tells them what the program will do
 def welcome():
     print("\n\n\n\n\nWelcome to a new cool program that will display the largest and smallest value that you, the user, have entered.")
-    print("It will run in a loop and not exit until you send \'99\'")
-    print("NOTE --- If you enter the number \'99\', the program will exit and display its output.")
+    print("It will run in a loop and not exit until you send \'-99\'")
 # A function that displays the largest and the smallest number the user entered once the program is over
 def output(smallest, largest):
     print('The smallest number you entered is: ', smallest)
