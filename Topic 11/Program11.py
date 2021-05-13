@@ -1,3 +1,7 @@
+# Author:  Nate Goldsborough
+# Date:    2021/5/12
+# Descr: A program to run the algorithm created in Topic 3 in a gui.
+
 from tkinter import *
 
 class PropertyTaxGUI():
@@ -81,3 +85,7 @@ def main():
     newWindow = PropertyTaxGUI()
 
 main()
+
+
+# Sample output:
+# nothing is output to the console
