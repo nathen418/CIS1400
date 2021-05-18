@@ -48,9 +48,6 @@ class PropertyTaxGUI():
         self.propertyTaxLabel.pack(side = 'left')
         self.propertyTaxOutput.pack(side = 'left')
         self.frame3.pack(side = 'top')
-        
-
-
 
         # create contents for frame 3
         self.calculateButton = Button(self.frame4, text = 'Calculate', command = self.calculate)
@@ -64,8 +61,6 @@ class PropertyTaxGUI():
         #enter the tkinter main loop
         self.mainWindow.mainloop()
 
-
-
     def calculate(self):
         propertyValue = float(self.inputValue.get())
 
@@ -75,17 +70,10 @@ class PropertyTaxGUI():
         self.assessmentValue.set(assessmentValue)
         self.taxValue.set(format(propertyTax, '.2f'))
 
-
-
-    #enter the tkinter main loop
-
-
-
 def main():
     newWindow = PropertyTaxGUI()
 
 main()
-
 
 # Sample output:
 # nothing is output to the console
