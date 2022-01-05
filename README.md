@@ -6,11 +6,7 @@ A repo of all the code written for my **Programming Logic & Technique (CIS-1400)
 - no pull requests will be merged
 - no comments on files will be answered.
 
-## Join my discord server:
-https://dsc.gg/antaresnetwork
-
 ## License
-
 - Refer to the license file
 
 ## Important Note:
